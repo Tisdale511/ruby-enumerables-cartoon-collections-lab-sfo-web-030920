@@ -5,7 +5,9 @@ def roll_call_dwarves(names) # code an argument here
   end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(ele_arr)# code an argument here
+  fin_arr = []
+  ele_arr.map {|eles| eles.capita
   # Your code here
 end
 
