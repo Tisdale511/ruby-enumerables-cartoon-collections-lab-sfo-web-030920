@@ -7,8 +7,10 @@ end
 
 def summon_captain_planet(ele_arr)# code an argument here
   fin_arr = []
-  ele_arr.map {|eles| eles.capitalize
-  # Your code here
+  ele_arr.map do |eles| 
+    fin_arr << (eles.capitalize + '!')
+  end
+  fin_arr
 end
 
 def long_planeteer_calls# code an argument here
