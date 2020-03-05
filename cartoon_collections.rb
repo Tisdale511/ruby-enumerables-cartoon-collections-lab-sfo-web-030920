@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(ele_arr)# code an argument here
   fin_arr = []
-  ele_arr.map {|eles| eles.capita
+  ele_arr.map {|eles| eles.capitalize
   # Your code here
 end
 
